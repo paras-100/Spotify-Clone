@@ -1,0 +1,18 @@
+.libraryScroll {
+  overflow: hidden;
+  overflow-y: overlay;
+}
+
+.libraryScroll::-webkit-scrollbar {
+  width: 15px;
+}
+
+.libraryScroll::-webkit-scrollbar-thumb {
+  background-color: #2b2b2b;
+  width: 15px;
+  opacity: 50%;
+}
+
+.libraryScroll::-webkit-scrollbar-track-piece {
+  background: transparent;
+}
