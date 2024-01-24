@@ -1,5 +1,5 @@
 // Library Import
-import { Flex } from "@chakra-ui/react";
+import { Button, Flex, Heading } from "@chakra-ui/react";
 
 // Icon Imports
 
@@ -29,12 +29,27 @@ const HomeScreen = () => {
 
         {/* Sign Up Footer */}
         <Flex
-          bgColor="#121212"
+          bgGradient="linear(90deg, rgba(175,41,151,1) 0%, rgba(128,96,196,1) 35%, rgba(80,154,244,1) 100%)"
           width="100%"
-          height="70px"
+          height="65px"
           mt="7px"
-          borderRadius="10px"
-        ></Flex>
+          px="20px"
+          py="7px"
+          justifyContent="space-between"
+        >
+          <Flex direction="column">
+            <Heading fontSize="15px" color="white">
+              Preview of Spotify
+            </Heading>
+            <Heading fontSize="15px" color="white" mt="5px">
+              Sign up to get unlimited songs and podcasts with occasional ads.
+              No credit card needed
+            </Heading>
+          </Flex>
+          <Button width="160px" height="50px" borderRadius="30px">
+            Sign up free
+          </Button>
+        </Flex>
       </Flex>
     </Flex>
   );
