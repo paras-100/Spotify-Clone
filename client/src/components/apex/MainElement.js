@@ -157,7 +157,7 @@ const MainElememt = () => {
                     alignItems: "center",
                   }}
                   whileHover={{ opacity: 1, scale: 1, y: "-20px" }}
-                  transition={{ duration: 0.5 }}
+                  transition={{ duration: 0.3 }}
                 >
                   <IconButton
                     icon={<FaPlay />}
@@ -248,7 +248,7 @@ const MainElememt = () => {
                     alignItems: "center",
                   }}
                   whileHover={{ opacity: 1, scale: 1, y: "-20px" }}
-                  transition={{ duration: 0.5 }}
+                  transition={{ duration: 0.3 }}
                 >
                   <IconButton
                     icon={<FaPlay />}
