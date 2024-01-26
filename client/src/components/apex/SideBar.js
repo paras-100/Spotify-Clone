@@ -259,6 +259,8 @@ const SideBar = () => {
             color="white"
             border="1px"
             mt="50px"
+            _hover={{ transform: "scale(1.05)" }}
+            transition="transform 0.2s ease-in-out"
           >
             <Icon as={TbWorld} mr="7px" boxSize="20px" /> English
           </Button>

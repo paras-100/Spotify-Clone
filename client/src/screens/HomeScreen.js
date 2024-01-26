@@ -46,7 +46,13 @@ const HomeScreen = () => {
               No credit card needed
             </Heading>
           </Flex>
-          <Button width="160px" height="50px" borderRadius="30px">
+          <Button
+            width="160px"
+            height="50px"
+            borderRadius="30px"
+            _hover={{ transform: "scale(1.05)" }}
+            transition="transform 0.2s ease-in-out"
+          >
             Sign up free
           </Button>
         </Flex>

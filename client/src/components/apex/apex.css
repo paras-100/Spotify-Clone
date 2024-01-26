@@ -1,6 +1,7 @@
+/* SideBar */
 .libraryScroll {
   overflow: hidden;
-  overflow-y: overlay;
+  overflow-y: scroll;
 }
 
 .libraryScroll::-webkit-scrollbar {
@@ -14,5 +15,26 @@
 }
 
 .libraryScroll::-webkit-scrollbar-track-piece {
+  background: transparent;
+}
+
+/* MainElement */
+
+.mainElementScroll {
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.mainElementScroll::-webkit-scrollbar {
+  width: 15px;
+}
+
+.mainElementScroll::-webkit-scrollbar-thumb {
+  background-color: #2b2b2b;
+  width: 15px;
+  opacity: 50%;
+}
+
+.mainElementScroll::-webkit-scrollbar-track-piece {
   background: transparent;
 }
