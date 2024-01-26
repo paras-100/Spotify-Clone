@@ -1,5 +1,3 @@
-Commands to install libraries
-
 For first commit
 
 -(In client Folder) </br>
@@ -18,3 +16,8 @@ For Third Commit </br>
 
 - Used this website for creating a footer graditent : https://cssgradient.io/
   dsd
+
+For Fourth Commit
+
+- Used Framer motion for Playlist Card animation
+- For icons used React icons
