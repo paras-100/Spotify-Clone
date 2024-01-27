@@ -11,7 +11,9 @@
   "author": "Paras Teli",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
+    "cors": "^2.8.5",
     "express": "^4.18.2",
     "mongoose": "^8.1.1"
   }
