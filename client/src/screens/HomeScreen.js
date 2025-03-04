@@ -33,23 +33,8 @@ const HomeScreen = () => {
           width="100%"
           height="65px"
           mt="7px"
-          px="20px"
-          py="7px"
-          justifyContent="space-between"
-        >
-          <Flex direction="column">
-            <Heading fontSize="15px" color="white">
-              Preview of Spotify
-            </Heading>
-            <Heading fontSize="15px" color="white" mt="5px">
-              Sign up to get unlimited songs and podcasts with occasional ads.
-              No credit card needed
-            </Heading>
-          </Flex>
-          <Button width="160px" height="50px" borderRadius="30px">
-            Sign up free
-          </Button>
-        </Flex>
+          borderRadius="10px"
+        ></Flex>
       </Flex>
     </Flex>
   );
